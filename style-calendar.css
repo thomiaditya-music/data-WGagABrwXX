@@ -1,0 +1,42 @@
+
+:root {
+  --neutralPrimarySurface: initial !important;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Geist', sans-serif !important;
+    font-size: 5em !important;
+}
+
+#leftPaneContainer {
+    display: none !important;
+}
+
+[data-app-section="Ribbon"] {
+    display: none !important;
+}
+
+#OwaTitleBar {
+    display: none !important;
+}
+
+#LeftRail {
+    display: none !important;
+}
+
+body::before {
+    content: "TRAINING ROOM 2";
+    color: white;
+    font-size: 2em;
+    text-align: center;   
+    font-weight: 600;
+    font-family: "Geist", sans-serif;
+}
+
+.calendar-SelectionStyles-resizeBoxParent > :nth-child(2) > :nth-child(1) {
+    height: auto !important;
+}
